@@ -21,7 +21,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/login', credentials);
+            const response = await axios.post('https://expense-tracker-backend-91yo9ekul-meena-kumaris-projects.vercel.app/api/auth/login', credentials);
             alert('Login successful!');
             console.log(response.data);
             
