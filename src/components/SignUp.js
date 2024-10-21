@@ -23,7 +23,7 @@ const Signup = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://expense-tracker-backend-91yo9ekul-meena-kumaris-projects.vercel.app/api/auth/signup', user);
+            const response = await axios.post('https://expensetracker-backend-42sz.onrender.com/api/auth/signup', user);
             alert('Signup successful!');
             console.log(response.data);
     
