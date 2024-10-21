@@ -21,7 +21,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://expensetracker-backend-2-gylv.onrender.com/api/auth/login', credentials);
+            const response = await axios.post('https://expensetracker-backend-42sz.onrender.com/api/auth/login', credentials);
             alert('Login successful!');
             console.log(response.data);
             
