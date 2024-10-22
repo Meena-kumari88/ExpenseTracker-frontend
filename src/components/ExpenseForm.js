@@ -102,7 +102,7 @@ const ExpenseForm = ({ onAddExpense, onUpdateExpense, editExpenseData }) => {
                     <TextField
                         label="Date"
                         name="date"
-                        type="text" 
+                        type="date" 
                         value={expense.date}
                         onChange={handleChange}
                         required
