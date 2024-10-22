@@ -103,7 +103,7 @@ const ExpenseTable = ({ expenses, onEdit, onDelete }) => {
             <div className="filter-item">
                 <label>Start Date:</label>
                 <input
-                    type="text"
+                    type="date"
                     value={startDate}
                     onChange={(e) => setStartDate(e.target.value)}
                     placeholder="dd/mm/yyyy"
@@ -112,7 +112,7 @@ const ExpenseTable = ({ expenses, onEdit, onDelete }) => {
             <div className="filter-item">
                 <label>End Date:</label>
                 <input
-                    type="text"
+                    type="date"
                     value={endDate}
                     onChange={(e) => setEndDate(e.target.value)}
                     placeholder="dd/mm/yyyy"
